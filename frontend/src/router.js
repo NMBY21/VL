@@ -1,5 +1,11 @@
 import {createRouter, createWebHistory} from "vue-router";
 import DefaultLayout from "./components/DefaultLayout.vue";
+import GuestLayout from "./components/GuestLayout.vue";
+import Home from "./pages/Home.vue";
+import MyImages from "./pages/MyImages.vue";  
+import Login from "./pages/Login.vue";
+import Signup from "./pages/Signup.vue";
+import NotFound from "./pages/NotFound.vue";
 
 
 const routes = [
@@ -12,7 +18,7 @@ const routes = [
     ],
   }
 
-   {
+  ,{
     path: '/login',
     name: 'Login',
     component: Login,
